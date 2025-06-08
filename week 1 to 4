@@ -1,0 +1,22 @@
+Week	Focus	Daily Tasks (1-2 Hours/Day)
+Week 1	Linux Basics	- Day 1: Install Linux (Ubuntu)
+- Day 2: Basic commands (ls, cd, mkdir)
+- Day 3: File permissions (chmod, chown)
+- Day 4: Text editing (nano, vim)
+- Day 5: Process management (ps, kill, top)
+Week 2	Shell Scripting (Bash)	- Day 6: Variables & loops
+- Day 7: If-else conditions
+- Day 8: Automate a backup script
+- Day 9: Cron jobs (automate scripts)
+- Day 10: Debugging scripts (set -x)
+Week 3	AWS Basics	- Day 11: AWS Free Tier setup
+- Day 12: EC2 (Launch Linux instance)
+- Day 13: S3 (Upload/Download files)
+- Day 14: IAM (Users & Roles)
+- Day 15: Deploy a static website on S3
+Week 4	Git & GitHub	- Day 16: Install Git
+- Day 17: git clone, git add, git commit
+- Day 18: Branching (git checkout -b)
+- Day 19: Push to GitHub
+- Day 20: Resolve a merge conflict
+End of Month 1:
