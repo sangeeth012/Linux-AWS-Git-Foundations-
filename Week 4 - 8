@@ -1,0 +1,21 @@
+Week	Focus	Daily Tasks (1-2 Hours/Day)
+Week 1	Jenkins (CI/CD)	- Day 21: Install Jenkins
+- Day 22: Create a "Hello World" job
+- Day 23: Build a pipeline for a Python script
+- Day 24: Integrate GitHub with Jenkins
+- Day 25: Deploy a static website via Jenkins
+Week 2	Docker (Containers)	- Day 26: Install Docker
+- Day 27: Run a pre-built Nginx container
+- Day 28: Create a custom Dockerfile
+- Day 29: Push an image to Docker Hub
+- Day 30: Deploy a container on AWS EC2
+Week 3	Terraform (IaC)	- Day 31: Install Terraform
+- Day 32: Launch an EC2 instance
+- Day 33: Automate S3 bucket creation
+- Day 34: Destroy & rebuild infra
+- Day 35: Store Terraform state in S3
+Week 4	Projects + Resume	- Day 36: Build a CI/CD pipeline (Jenkins + Docker)
+- Day 37: Automate AWS setup with Terraform
+- Day 38: Update GitHub with projects
+- Day 39: Optimize LinkedIn/Resume
+- Day 40: Apply for 5 jobs/day
