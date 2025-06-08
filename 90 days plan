@@ -1,0 +1,78 @@
+Day	Topic	Tasks & Practice
+1	Install Linux	Install Ubuntu (dual-boot/VirtualBox/WSL). Run uname -a.
+2	Basic Commands	ls, cd, mkdir, touch, rm. Create /home/$USER/test.
+3	File Permissions	chmod 644 file.txt, chown, chgrp. Make a script executable.
+4	Text Editors	Edit files with nano & vim. Save and exit (:wq).
+5	Process Management	ps aux, kill -9 PID, top, htop. Kill a running sleep process.
+6	User Management	sudo adduser devops, passwd, usermod.
+7	Networking Basics	ifconfig, ping, netstat -tuln, ssh.
+8	Package Management	apt update, apt install nginx, systemctl start nginx.
+9	Environment Variables	echo $PATH, export VAR="Hello", env.
+10	Basic Shell Scripting	#!/bin/bash, echo "Hello World", make it executable.
+11	Variables & Loops	for i in {1..5}; do echo $i; done.
+12	If-Else Conditions	Check if a file exists, compare numbers.
+13	Functions in Bash	Write a function to greet a user.
+14	Automate a Backup	Backup /home to /backup with tar.
+15	Cron Jobs	Schedule a script to run every day at 5 PM.
+16	AWK & SED Basics	awk '{print $1}' file.txt, sed 's/old/new/g'.
+17	Log Analysis	Use grep to find errors in /var/log/syslog.
+18	Debugging Scripts	set -x, bash -x script.sh.
+19	Mini-Project 1	Write a script to monitor disk space & alert if >90%.
+20	Mini-Project 2	Automate user creation with a script.
+21	Review & Practice	Redo all exercises, fix mistakes.
+📌 Weeks 4-6: AWS & Cloud Basics (Days 22-42)
+Day	Topic	Tasks & Practice
+22	AWS Free Tier Setup	Enable MFA, set billing alerts.
+23	EC2 Basics	Launch an Ubuntu instance, SSH into it.
+24	EC2 Security Groups	Allow HTTP/HTTPS/SSH traffic.
+25	S3 Basics	Create a bucket, upload a file, set permissions.
+26	IAM Users & Roles	Create a user with S3 read-only access.
+27	Route 53 Basics	Register a domain (optional), create a hosted zone.
+28	CloudWatch Logs	Monitor EC2 CPU usage, set an alarm.
+29	AWS CLI Setup	Install & configure (aws configure).
+30	EBS Volumes	Attach a volume to EC2, format & mount it.
+31	Load Balancers	Create an ALB, route traffic to 2 EC2 instances.
+32	Auto Scaling	Configure an Auto Scaling group.
+33	RDS Basics	Launch a MySQL DB, connect via MySQL client.
+34	Lambda Basics	Create a Python Lambda function.
+35	CloudFormation	Deploy an EC2 instance using a YAML template.
+36	VPC & Subnets	Create a custom VPC with public/private subnets.
+37	NAT Gateway	Allow private instances to access the internet.
+38	AWS Cost Explorer	Analyze your AWS spending.
+39	AWS Backup	Schedule an EBS snapshot backup.
+40	AWS CLI Scripting	Automate EC2 instance start/stop.
+41	Mini-Project 3	Host a static website on S3 + CloudFront.
+42	Review & Practice	Recreate all AWS services from scratch.
+📌 Weeks 7-9: Git, GitHub & CI/CD (Days 43-63)
+Day	Topic	Tasks & Practice
+43	Install Git	git --version, git config --global user.name.
+44	Git Basics	git init, git add, git commit -m "message".
+45	Git Log & Diff	git log --oneline, git diff.
+46	Branching	git checkout -b feature, git merge.
+47	GitHub Account	Push a local repo to GitHub.
+48	Fork & PR	Fork a repo, make changes, submit a PR.
+49	Git Stash	git stash, git stash pop.
+50	Git Reset/Revert	Undo commits (git reset --hard HEAD~1).
+51	Git Hooks	Create a pre-commit hook to block bad commits.
+52	GitHub Actions	Run a simple workflow on push.
+53	Jenkins Setup	Install Jenkins, run a "Hello World" job.
+54	Docker Basics	docker run hello-world, docker ps -a.
+55	Dockerfile	Build a custom Nginx image.
+56	Docker Compose	Run a multi-container app (WordPress + MySQL).
+57	Kubernetes Basics	minikube start, kubectl get pods.
+58	Helm Basics	Install a chart (e.g., helm install nginx).
+59	Terraform Basics	Deploy an EC2 instance using Terraform.
+60	Ansible Basics	Write a playbook to install Nginx.
+61	CI/CD Pipeline	Build a GitHub Actions pipeline for a Python app.
+62	Mini-Project 4	Automate deployment of a web app (Docker + GitHub Actions).
+63	Review & Practice	Break & fix a CI/CD pipeline.
+📌 Weeks 10-12: Advanced DevOps (Days 64-90)
+Day	Topic	Tasks & Practice
+64-70	Monitoring (Prometheus + Grafana)	Set up alerts for CPU/RAM usage.
+71-77	Infrastructure as Code (Terraform)	Deploy a full VPC + EC2 + RDS setup.
+78-84	Kubernetes (EKS)	Deploy a microservice app on EKS.
+85-90	Final Project	Build a full DevOps pipeline:
+- CI/CD (GitHub Actions/Jenkins)
+- IaC (Terraform)
+- Kubernetes (EKS)
+- Monitoring (Prometheus/Grafana)
